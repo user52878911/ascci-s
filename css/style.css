@@ -1,15 +1,63 @@
 header{
 	background-color:#1C4561;
 	color: white;
+	font-family: sans-serif;
+}
+.container{
+	height: 100%;
 }
 .columna0{
+	text-align: center;
 	background-color:#FFA500;
 }
 .columna1{
+	text-align: center;
 	background-color: #9ff6;
 }
 img{
 	margin: 10px;
 	float: left;
 	text-align: center;
+}
+.columnas-select{
+	background-color:#0A0A2A;
+}
+.columnas-select:hover{
+	background-color: #0B2161;
+	color:black;
+}
+
+
+/*separacion de toooodo esto */
+
+
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+.containerTab {
+    padding: 20px;
+    color: white;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.closebtn {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
 }
