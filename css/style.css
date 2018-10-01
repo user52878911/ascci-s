@@ -4,7 +4,9 @@
 	padding: 0;
 }
 body{
-	background-image: url(../img-svg/font.png);
+	background-image: url(../img-svg/font2.png);
+	background-repeat: repeat;
+	background-origin: 0;
 }
 .fluxin{
 	background-color:#474a56;
@@ -45,4 +47,28 @@ body{
 	background-color:#F3F5FA;
 	padding: 10px;
 	border-radius: 5px;
+}
+.imagen_photodfd{
+	margin: 10px 0 40px 0;
+	background-color:#222;
+	padding: 30px;
+	border-radius: 5px;
+}
+.footer{
+	background-color: #222;
+	color:#F3F5FA;
+
+}
+.rowper{
+	margin-bottom: 100px;
+}
+.rowperin{
+	margin-top: 100px;
+}
+.rowminiper{
+	margin-bottom: 50px;
+}
+
+#hellosmall{
+	text-align: center;
 }
